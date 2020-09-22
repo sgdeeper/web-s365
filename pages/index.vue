@@ -3,6 +3,9 @@
     <div>
       <Logo />
       <h1 class="title">web-s365</h1>
+      <p style="font-size:48px">
+        <b>Noto Sansで美しいサイトにする。</b>
+      </p>
       <div class="links">
         <a
           href="https://nuxtjs.org/"

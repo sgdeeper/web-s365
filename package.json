@@ -11,16 +11,6 @@
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:style"
   },
-  "lint-staged": {
-    "*.{js,vue}": "eslint",
-    "*.{css,vue}": "stylelint"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@nuxt/content": "^1.8.1",
     "@nuxt/typescript-runtime": "^2.0.0",
@@ -28,7 +18,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/vuetify": "^1.11.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
+    "nuxt": "^2.14.5",
+    "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
