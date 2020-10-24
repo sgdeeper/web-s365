@@ -2,8 +2,8 @@
   <div class="container">
     <div>
       <h1 class="title">web-s365</h1>
-      <p style="font-size:48px">
-        <b>Noto Sansで美しいサイトにする。</b>
+      <p class="subtitle">
+        Webフォントで見栄えするサイトに。
       </p>
     </div>
   </div>
@@ -17,6 +17,8 @@ export default Vue.extend({})
 
 <style>
 .container {
+  font-family: 'Lato', 'M PLUS Rounded 1c', 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -26,8 +28,6 @@ export default Vue.extend({})
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
