@@ -44,7 +44,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Lato:400,700', 'Noto+Sans+JP', 'M+PLUS+Rounded+1c']
+      families: ['Lato:400,700', 'M+PLUS+Rounded+1c']
     }
   },
 
