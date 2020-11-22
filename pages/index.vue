@@ -1,12 +1,17 @@
 <template>
-  <div class="container">
+  <!-- Provides the application the proper gutter -->
+  <v-container fluid>
+    <h1 class="title">web-s365</h1>
+    <p class="subtitle">
+      Webフォントで見栄えするサイトに。
+    </p>
     <div>
-      <h1 class="title">web-s365</h1>
-      <p class="subtitle">
-        Webフォントで見栄えするサイトに。
-      </p>
+      <button class="button">詳細はこちら</button>
     </div>
-  </div>
+    <div>
+      <button class="button--accent">予定しているイベントを見る</button>
+    </div>
+  </v-container>
 </template>
 
 <script lang="ts">
@@ -16,29 +21,17 @@ export default Vue.extend({})
 </script>
 
 <style>
-.container {
-  font-family: 'Lato', 'M PLUS Rounded 1c', 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 .title {
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #272343;
+  font-size: 10rem;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #2d334a;
+  font-size: 4.2rem;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
