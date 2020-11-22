@@ -1,10 +1,18 @@
 <template>
   <!-- Provides the application the proper gutter -->
-  <v-container fluid>
+  <v-container>
     <h1 class="title">web-s365</h1>
     <p class="subtitle">
       Webフォントで見栄えするサイトに。
     </p>
+    <v-row>
+      <v-col cols="12">
+      <v-btn dark x-large color="#318053">
+        詳細はこちら
+        <v-icon right>mdi-chevron-right</v-icon>
+      </v-btn>
+      </v-col>
+    </v-row>
     <div>
       <button class="button">詳細はこちら</button>
     </div>
@@ -25,13 +33,13 @@ export default Vue.extend({})
 .title {
   display: block;
   font-weight: 300;
-  font-size: 10rem;
+  font-size: 2rem;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 4.2rem;
+  font-size: 1.5rem;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

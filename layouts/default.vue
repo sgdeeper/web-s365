@@ -1,31 +1,16 @@
 <template>
-  <v-app>
-    <v-navigation-drawer app>
-      <!-- -->
-    </v-navigation-drawer>
-
-    <v-app-bar app>
-      <!-- -->
-    </v-app-bar>
-
-    <!-- Sizes your content based upon application components -->
-    <v-main>
-      <v-fade-transition>
-        <Nuxt />
-      </v-fade-transition>
-    </v-main>
-
-    <v-footer app>
-      © 2020 s365
-    </v-footer>
-  </v-app>
+　<div>
+    <v-fade-transition>
+      <Nuxt />
+    </v-fade-transition>
+  </div>
 </template>
 
 <style>
 html {
   font-family: 'Lato', 'M PLUS Rounded 1c', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 10px;
+  font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -54,6 +39,7 @@ button {
   text-decoration: none;
   min-width: 120px;
   padding: 10px 30px;
+  margin: 20px auto;
   opacity: 1;
 }
 
