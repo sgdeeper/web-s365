@@ -1,6 +1,18 @@
 <template>
   <!-- Provides the application the proper gutter -->
   <v-container>
+
+    <!-- メインビジュアル -->
+
+    <!-- 予定している撮影会・イベント -->
+
+    <!-- 私の理念、一番大切にしていること（へのリンク） -->
+
+    <!-- SNSへのリンク -->
+
+    <!-- 問い合わせフォーム（へのリンク？） -->
+    <!-- 直接フォームおいてもいいかも -->
+
     <h1 class="title">web-s365</h1>
     <p class="subtitle">
       Webフォントで見栄えするサイトに。
